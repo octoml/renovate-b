@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "renovate-a"
+version = "0.1.0"
+description = ""
+authors = ["Brian"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = { version = "^0.110.0", optional = true }
